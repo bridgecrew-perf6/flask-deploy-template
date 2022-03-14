@@ -36,7 +36,14 @@ Then please open http://localhost:5000 in your browser.
 
 ### PythonAnywhere
 
-TBD
+1. Sign up to https://www.pythonanywhere.com
+2. Go to `Web` -> `Add a new web app` -> `Flask` -> pass flask app file
+3. Create venv via `mkvirtualenv --python=python3.7 app`
+4. Clone the repo or upload files via `Files` section
+5. Install dependencies
+6. Make sure imports are correct in /var/www/flaskweapp_pythonanywhere_com_wsgi.py file
+7. Go to `Web` -> `Reload` app
+8. Open web app
 
 ## Development notes
 
